@@ -1,4 +1,4 @@
-# SMS for BB10 Cordova / Webworks
+# SMS Plugin for BB10 Cordova / Webworks
 
 The purpose of this Cordova/Webworks plugin is to allow developers to send an SMS from within a Cordova/Webworks project for BlackBerry 10. 
 This plugin differs from [invoke](https://developer.blackberry.com/html5/documentation/beta/text_messages.html) 
@@ -94,12 +94,8 @@ None!
 
 ## Contributing Changes
 
-Please see the [README](https://github.com/blackberry/Cascades-Community-Samples/blob/master/README.md) of the Cascades-Community-Samples repository for instructions on how to add new Samples or make modifications to existing Samples.
+Please see the [README](https://github.com/blackberry/BB10-WebWorks-Community-Samples) of the BB10-WebWorks-Community-Samples repository for instructions on how to add new Samples or make modifications to existing Samples.
 
-
-## Bug Reporting and Feature Requests
-
-If you find a bug in a Sample, or have an enhancement request, simply file an [Issue](https://github.com/blackberry/WebWorks-Community-APIs/issues) for the Sample and send a message (via github messages) to the Sample Author(s) to let them know that you have filed an [Issue](https://github.com/blackberry/WebWorks-Community-APIs/issues). If you have a solution to an issue you can contribute your fix and issue a Pull Request to have it reviewed and integrated into the main repo.
 
 
 ## Disclaimer
