@@ -1,0 +1,9 @@
+rm -rf plugin/src/blackberry10/native/ 
+cp -R NDK_project/ plugin/src/blackberry10/native 
+cd SMSPlugin-DemoApp/
+webworks plugin ls
+webworks plugin rm 'community.SMSPlugin'
+webworks plugin ls
+webworks plugin add ../plugin/
+webworks emulate
+date
