@@ -30,8 +30,9 @@ The sample code for this application is Open Source under the [Apache 2.0 Licens
 **How to install this extension**
 
 1. In command prompt while in your project directory, type: cordova plugin add <path to the /plugin/ directory>
-2. Include the bbSMS.js file in your project (file is located at SMSPlugin-DemoApp/www/js/)
-3. In the config.xml of your project add the following permissions (see the config.xml in /SMSPlugin-DemoApp/www for an example)
+2. Copy the bbSMS.js file into your project (file is located at SMSPlugin-DemoApp/www/js/)
+3. Make sure you remember to include it in your index.html file for your app
+4. In the config.xml of your project add the following permissions (see the config.xml in www for an example)
 
 ```
 	<rim:permissions>
@@ -42,7 +43,6 @@ The sample code for this application is Open Source under the [Apache 2.0 Licens
 ```
 
 **Usage**
-
 
 bbSMS.send(phonenumber, message, person<optional>);
 
@@ -68,19 +68,21 @@ else{
  
 **How to Build the SMS Plugin for BB10 Cordova**
 
-Assumption: You have installed the BlackBerry Native SDK 2.0+, and BlackBerry Webworks 2.0+
+Assumption: You have installed the BlackBerry Native SDK 2.0+
 
 - Simply import the plugin/src/blackberry10/native directory into a workspace in your NDK. Build the project.
 
 
 **How to test the SMS Plugin using the demo app provided**
 
+Assumption: You have installed the BlackBerry WebWorks 2.0+ or Cordova 3.3+. If you are using WebWorks instead of Cordova, simply use the command webworks instead of cordova below.
+
 1. Create a Cordova Project : 
 ```
 $ cordova create SMSPlugin-DemoApp community.SMSPlugin.demo SMSPlugin-DemoApp
 ```
 
-2. If you are using cordova and not webworks, type you will need to add the BlackBerry platform. If you are using WebWorks 2.0+, ignore this step. 
+2. If you are using cordova, type you will need to add the BlackBerry platform. If you are using WebWorks 2.0+, ignore this step. 
 ```
 $ cordova platform add blackberry10
 ```
