@@ -73,7 +73,7 @@ Assumption: You have installed the BlackBerry Native SDK 2.0+, and BlackBerry We
 - Simply import the plugin/src/blackberry10/native directory into a workspace in your NDK. Build the project.
 
 
-***How to test the SMS Plugin using the demo app provided ***
+**How to test the SMS Plugin using the demo app provided**
 
 1. Create a Cordova Project : 
 ```
@@ -104,7 +104,8 @@ If you don't want to build this sample application yourself we've included a pre
 You can find it in the folder /build folder. 
 
 
-***License***
+**License**
+
 Apache 2.0
 
 **Tested on**
