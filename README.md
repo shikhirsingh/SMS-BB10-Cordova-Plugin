@@ -6,10 +6,6 @@ because the Cordova app itself can send the SMS, where as the invoke feature wil
 
 The sample code for this application is Open Source under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
 
-**Applies To**
-
-* [BlackBerry Native SDK](http://developer.blackberry.com/native/)
-
 **Author** 
 
 * [Shikhir Singh](http://code.shikhir.com/)
@@ -61,7 +57,6 @@ else{
 	}
 	else{
 		console.log('SMS has been sent!');
-		alert('SMS has been sent!');
 	}
 }
 ```
@@ -84,6 +79,7 @@ $ cordova create SMSPlugin-DemoApp community.SMSPlugin.demo SMSPlugin-DemoApp
 
 2. If you are using cordova, type you will need to add the BlackBerry platform. If you are using WebWorks 2.0+, ignore this step. 
 ```
+$ cd SMSPlugin-DemoApp
 $ cordova platform add blackberry10
 ```
 
