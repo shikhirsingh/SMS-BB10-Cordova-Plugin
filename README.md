@@ -66,20 +66,53 @@ else{
 }
 ```
  
-**How to Build SMS for BB10 Cordova**
+**How to Build the SMS Plugin for BB10 Cordova**
 
 Assumption: You have installed the BlackBerry Native SDK 2.0+, and BlackBerry Webworks 2.0+
 
-1. Simply import the NDK_project directory into a workspace in your NDK. Build the project. 
-2. After building the NDK Project, copy the contents of the NDK_project directory into plugin/src/blackberry10/native - Here is the command: cp -R NDK_project/ plugin/src/blackberry10/native 
-3. Go to the SMSPlugin-DemoApp directory, then add the plugin using the following command: cordova plugin add ../plugin/
-4. Now you can build the project using : cordova build --release --keystorepass YOUR_PASSWORD_GOES_HERE -buildId 1 
+- Simply import the plugin/src/blackberry10/native directory into a workspace in your NDK. Build the project.
+
+**How to Install the SMS Plugin for BB10 Cordova**
+ 
+In your Cordova app project directory type: 
+
+```
+$ cordova plugin add /path/To/plugin/folder 
+```
+
+**How to test the SMS Plugin using the demo app provided **
+
+1. Create a Cordova Project : 
+```
+$ cordova create SMSPlugin-DemoApp community.SMSPlugin.demo SMSPlugin-DemoApp
+```
+
+1a. If you are using cordova and not webworks, type you will need to add the BlackBerry platform. If you are using WebWorks 2.0+, ignore this step. 
+```
+$ cordova platform add blackberry10
+```
+
+
+2. Go to the SMSPlugin-DemoApp directory which was just created, then add the plugin using the following command: 
+```
+$ cordova plugin add /path/To/plugin/folder
+```
+
+3. Delete the folder SMSPlugin-DemoApp/www and replace it with the www folder provided
+
+4. Now you can build the project using: 
+```
+$ cordova build --release --keystorepass YOUR_PASSWORD_GOES_HERE -buildId 1 
+```
 
 **How can I know that this plugin actually works without building it all myself!**
 
 If you don't want to build this sample application yourself we've included a pre-built and signed BAR file. 
 You can find it in the folder /build folder. 
 
+
+**License**
+Apache 2.0
 
 **Tested on**
 
