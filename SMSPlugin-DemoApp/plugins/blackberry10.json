@@ -1,1 +1,0 @@
-{"prepare_queue":{"installed":[],"uninstalled":[]},"config_munge":{"www/config.xml":{"/widget":{"<feature name=\"community.SMSPlugin\" value=\"community.SMSPlugin\" />":1}}},"installed_plugins":{"community.SMSPlugin":{"PACKAGE_NAME":"community.SMSPlugin.demo"}},"dependent_plugins":{}}
