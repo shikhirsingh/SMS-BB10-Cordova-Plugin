@@ -80,20 +80,20 @@ Assumption: You have installed the BlackBerry Native SDK 2.0+, and BlackBerry We
 $ cordova create SMSPlugin-DemoApp community.SMSPlugin.demo SMSPlugin-DemoApp
 ```
 
-1a. If you are using cordova and not webworks, type you will need to add the BlackBerry platform. If you are using WebWorks 2.0+, ignore this step. 
+2. If you are using cordova and not webworks, type you will need to add the BlackBerry platform. If you are using WebWorks 2.0+, ignore this step. 
 ```
 $ cordova platform add blackberry10
 ```
 
 
-2. Go to the SMSPlugin-DemoApp directory which was just created, then add the plugin using the following command: 
+3. Go to the SMSPlugin-DemoApp directory which was just created, then add the plugin using the following command: 
 ```
 $ cordova plugin add /path/To/plugin/folder
 ```
 
-3. Delete the folder SMSPlugin-DemoApp/www and replace it with the www folder provided
+4. Delete the folder SMSPlugin-DemoApp/www and replace it with the www folder provided
 
-4. Now you can build the project using: 
+5. Now you can build the project using: 
 ```
 $ cordova build --release --keystorepass YOUR_PASSWORD_GOES_HERE -buildId 1 
 ```
