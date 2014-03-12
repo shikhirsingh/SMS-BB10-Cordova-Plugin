@@ -1,5 +1,6 @@
 # SMS Plugin for BB10 Cordova / Webworks
 
+
 The purpose of this Cordova/Webworks plugin is to allow developers to send an SMS from within a Cordova/Webworks project for BlackBerry 10. 
 This plugin differs from [invoke](https://developer.blackberry.com/html5/documentation/beta/text_messages.html) 
 because the Cordova app itself can send the SMS, where as the invoke feature will launch the SMS app. 
